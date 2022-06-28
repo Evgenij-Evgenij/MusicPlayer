@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct ImageAlbom: View {
-    var image: [Tracks] = TrackData.treckData
+    var image: [Track] = TrackData.treckData
     var body: some View {
         VStack {
             ScrollView(.horizontal, showsIndicators: false) {
@@ -42,7 +42,7 @@ struct ImageAlbom_Previews: PreviewProvider {
 }
 
 //struct ImageAlbomView: View {
-//      var img: Tracks
+//      var img: Track
 //    //var img : String
 //    var body: some View {
 //        HStack {

@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CE67AA03286AFC9000AFF85F /* Tracks.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE67AA02286AFC9000AFF85F /* Tracks.swift */; };
+		CE67AA03286AFC9000AFF85F /* Track.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE67AA02286AFC9000AFF85F /* Track.swift */; };
 		CE67AA09286B23A700AFF85F /* ActionButtonPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE67AA08286B23A700AFF85F /* ActionButtonPlayerView.swift */; };
 		CE6931912868623C00C4AAA4 /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6931902868623C00C4AAA4 /* SearchBarView.swift */; };
 		CEB0E2DB2865F1660090C0EE /* MusicPlayerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB0E2DA2865F1660090C0EE /* MusicPlayerApp.swift */; };
@@ -19,14 +19,14 @@
 		CED0D1C828699A7900ACE937 /* WeeklyMusicMixView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED0D1C728699A7900ACE937 /* WeeklyMusicMixView.swift */; };
 		CED0D1CA2869ADAF00ACE937 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED0D1C92869ADAF00ACE937 /* ListView.swift */; };
 		CED0D1CD2869BD3200ACE937 /* Звери - Районы-кварталы.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CED0D1CC2869BD3200ACE937 /* Звери - Районы-кварталы.mp3 */; };
-		CED0D1D02869C76B00ACE937 /* PlaerScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED0D1CF2869C76B00ACE937 /* PlaerScreenView.swift */; };
+		CED0D1D02869C76B00ACE937 /* PlayerScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED0D1CF2869C76B00ACE937 /* PlayerScreenView.swift */; };
 		CED0D1D42869C7DD00ACE937 /* PlayerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED0D1D32869C7DD00ACE937 /* PlayerViewModel.swift */; };
 		CED0D1D62869CFEE00ACE937 /* NumberSongsInList.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED0D1D52869CFEE00ACE937 /* NumberSongsInList.swift */; };
 		CED0D1D82869D67400ACE937 /* ImageAlbom.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED0D1D72869D67400ACE937 /* ImageAlbom.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		CE67AA02286AFC9000AFF85F /* Tracks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tracks.swift; sourceTree = "<group>"; };
+		CE67AA02286AFC9000AFF85F /* Track.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Track.swift; sourceTree = "<group>"; };
 		CE67AA08286B23A700AFF85F /* ActionButtonPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionButtonPlayerView.swift; sourceTree = "<group>"; };
 		CE6931902868623C00C4AAA4 /* SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
 		CEB0E2D72865F1660090C0EE /* MusicPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -39,7 +39,7 @@
 		CED0D1C728699A7900ACE937 /* WeeklyMusicMixView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeeklyMusicMixView.swift; sourceTree = "<group>"; };
 		CED0D1C92869ADAF00ACE937 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 		CED0D1CC2869BD3200ACE937 /* Звери - Районы-кварталы.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Звери - Районы-кварталы.mp3"; sourceTree = "<group>"; };
-		CED0D1CF2869C76B00ACE937 /* PlaerScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaerScreenView.swift; sourceTree = "<group>"; };
+		CED0D1CF2869C76B00ACE937 /* PlayerScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerScreenView.swift; sourceTree = "<group>"; };
 		CED0D1D32869C7DD00ACE937 /* PlayerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewModel.swift; sourceTree = "<group>"; };
 		CED0D1D52869CFEE00ACE937 /* NumberSongsInList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberSongsInList.swift; sourceTree = "<group>"; };
 		CED0D1D72869D67400ACE937 /* ImageAlbom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageAlbom.swift; sourceTree = "<group>"; };
@@ -117,7 +117,7 @@
 		CED0D1CE2869C73D00ACE937 /* PlayerScreen */ = {
 			isa = PBXGroup;
 			children = (
-				CED0D1CF2869C76B00ACE937 /* PlaerScreenView.swift */,
+				CED0D1CF2869C76B00ACE937 /* PlayerScreenView.swift */,
 				CED0D1D52869CFEE00ACE937 /* NumberSongsInList.swift */,
 				CED0D1D72869D67400ACE937 /* ImageAlbom.swift */,
 				CE67AA08286B23A700AFF85F /* ActionButtonPlayerView.swift */,
@@ -130,7 +130,7 @@
 			isa = PBXGroup;
 			children = (
 				CED0D1D32869C7DD00ACE937 /* PlayerViewModel.swift */,
-				CE67AA02286AFC9000AFF85F /* Tracks.swift */,
+				CE67AA02286AFC9000AFF85F /* Track.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -209,7 +209,7 @@
 				CE6931912868623C00C4AAA4 /* SearchBarView.swift in Sources */,
 				CEB0E2E92865F69F0090C0EE /* ListSongs.swift in Sources */,
 				CED0D1C828699A7900ACE937 /* WeeklyMusicMixView.swift in Sources */,
-				CE67AA03286AFC9000AFF85F /* Tracks.swift in Sources */,
+				CE67AA03286AFC9000AFF85F /* Track.swift in Sources */,
 				CED0D1CA2869ADAF00ACE937 /* ListView.swift in Sources */,
 				CE67AA09286B23A700AFF85F /* ActionButtonPlayerView.swift in Sources */,
 				CED0D1D82869D67400ACE937 /* ImageAlbom.swift in Sources */,
@@ -218,7 +218,7 @@
 				CEB0E2DD2865F1660090C0EE /* HomeView.swift in Sources */,
 				CEB0E2EC2865FDBA0090C0EE /* TopBarButtonView.swift in Sources */,
 				CEB0E2DB2865F1660090C0EE /* MusicPlayerApp.swift in Sources */,
-				CED0D1D02869C76B00ACE937 /* PlaerScreenView.swift in Sources */,
+				CED0D1D02869C76B00ACE937 /* PlayerScreenView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
